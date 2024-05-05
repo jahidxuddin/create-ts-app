@@ -45,10 +45,9 @@ func CreateConfigFiles(projectName string) error {
 		Author:   "",
 		License:  "MIT",
 		Dependencies: map[string]string{
-			"express": "^4.19.2",
+			
 		},
 		DevDependencies: map[string]string{
-			"@types/express": "^4.17.21",
 			"@types/node":    "^20.12.8",
 			"concurrently":   "^8.2.2",
 			"nodemon":        "^3.1.0",
