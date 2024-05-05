@@ -1,7 +1,10 @@
 # create-ts-app
 
-## Todo's
-- read args & validate args
-- create package.json with all dependencies
-- create src directory
-- create index.ts
+```shell
+create-ts-app my-app
+```
+OR
+```shell
+create-ts-app
+Enter project name: my-app
+```
