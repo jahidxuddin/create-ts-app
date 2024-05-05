@@ -7,7 +7,7 @@ import (
 )
 
 func PromptProjectName() (string, error) {
-	print("Enter project name: ")
+	print("Project name: ")
 
 	reader := bufio.NewReader(os.Stdin)
 	projectName, err := reader.ReadString('\n')
