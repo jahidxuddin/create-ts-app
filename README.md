@@ -6,5 +6,5 @@ create-ts-app my-app
 OR
 ```shell
 create-ts-app
-Enter project name: my-app
+Project name: my-app
 ```
